@@ -1,4 +1,4 @@
-#PROJECT LINK:  final-fraud-guru.vercel.app
+# PROJECT LINK [final-fraud-guru.vercel.app](https://final-fraud-guru.vercel.app/)
 # Fraud Detection System Using AI
 [screen-capture (26).webm](https://github.com/user-attachments/assets/01c37c08-6cc1-4587-97fd-f2aae62ecda7)
 
