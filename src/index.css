@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 217.2 32.6% 90%;
+    --muted-foreground: 215 20.2% 30%;
+    --accent: 217.2 32.6% 90%;
+    --accent-foreground: 217.2 91.2% 59.8%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 217.2 32.6% 90%;
+    --input: 217.2 32.6% 90%;
+    --ring: 224.3 76.3% 48%;
+
+    --fraud-low: 142.1 70.6% 45.3%;
+    --fraud-medium: 38 92.7% 50.6%;
+    --fraud-high: 346.8 77.2% 49.8%;
+    --fraud-financial: 262 80% 60%;
+    --fraud-identity: 325 80% 60%;
+    --fraud-account: 200 80% 60%;
+    --fraud-payment: 45 80% 60%;
+    --fraud-promotional: 160 80% 60%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.3% 48%;
+  }
+
+  .purple-theme {
+    --primary: 267 80% 60%;
+    --ring: 267 80% 60%;
+  }
+
+  .teal-theme {
+    --primary: 182 80% 40%;
+    --ring: 182 80% 40%;
+  }
+
+  .amber-theme {
+    --primary: 38 95% 60%;
+    --ring: 38 95% 60%;
+  }
+
+  .rose-theme {
+    --primary: 336 80% 60%;
+    --ring: 336 80% 60%;
+  }
+
+  .neon-theme {
+    --primary: 110 100% 54%;
+    --ring: 110 100% 54%;
+  }
+
+  .cyan-theme {
+    --primary: 195 95% 50%;
+    --ring: 195 95% 50%;
+  }
+
+  .magenta-theme {
+    --primary: 300 95% 60%;
+    --ring: 300 95% 60%;
+  }
+
+  .green-theme {
+    --primary: 142 70% 45%;
+    --ring: 142 70% 45%;
+  }
+
+  .red-theme {
+    --primary: 0 85% 60%;
+    --ring: 0 85% 60%;
+  }
+
+  .orange-theme {
+    --primary: 25 95% 55%;
+    --ring: 25 95% 55%;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply border bg-background/30 backdrop-blur-xl backdrop-saturate-150 shadow-lg;
+  }
+
+  .glass-dialog {
+    @apply border bg-background/70 backdrop-blur-xl backdrop-saturate-150 shadow-lg;
+  }
+
+  .gradient-heading {
+    @apply bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent;
+  }
+
+  .bg-grid {
+    @apply bg-grid-pattern opacity-5;
+  }
+  
+  .animated-bg {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  .animated-bg-subtle {
+    background: linear-gradient(-45deg, rgba(238, 119, 82, 0.05), rgba(231, 60, 126, 0.05), rgba(35, 166, 213, 0.05), rgba(35, 213, 171, 0.05));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  .animated-bg-teal {
+    background: linear-gradient(-45deg, rgba(18, 147, 154, 0.2), rgba(29, 151, 108, 0.1), rgba(20, 184, 166, 0.05), rgba(17, 94, 89, 0.1));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  .floating-particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+    opacity: 0.3;
+  }
+  
+  .floating-particles span {
+    position: absolute;
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    animation: float 25s linear infinite;
+  }
+  
+  .btn-animated {
+    @apply relative overflow-hidden transition-all duration-300 before:absolute before:inset-0 before:z-0 before:bg-primary/20 before:opacity-0 before:transition hover:before:opacity-100 before:transform before:translate-y-full hover:before:translate-y-0 before:duration-500;
+  }
+  
+  .btn-glow {
+    @apply relative shadow-lg transition-all duration-300 hover:shadow-primary/50 hover:shadow-xl;
+  }
+  
+  .btn-shine {
+    @apply relative overflow-hidden after:absolute after:inset-0 after:z-10 after:translate-x-[-100%] after:skew-x-[-15deg] after:bg-gradient-to-r after:from-transparent after:via-white/30 after:to-transparent hover:after:translate-x-[100%] after:transition-all after:duration-700;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+  }
+}
