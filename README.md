@@ -1,69 +1,80 @@
-# Welcome to your Lovable project
+# Fraud Detection System Using AI
+[screen-capture (26).webm](https://github.com/user-attachments/assets/01c37c08-6cc1-4587-97fd-f2aae62ecda7)
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/fb140910-0060-4989-b470-4b636cab9803
+The **Fraud Detection System** leverages advanced AI models to detect fraudulent activities in financial transactions, e-commerce platforms, and online services. By utilizing machine learning and deep learning techniques, this system enhances security and prevents financial losses.
 
-## How can I edit this code?
+## Technologies Used
 
-There are several ways of editing your application.
+### **AI Models**
+- **XGBoost** - For high-performance fraud classification
+- **Random Forest** - For robust fraud pattern detection
+- **LSTM (Long Short-Term Memory)** - For sequential transaction anomaly detection
+- **BERT (Bidirectional Encoder Representations from Transformers)** - For NLP-based fraud detection in customer interactions
+- **Autoencoders** - For unsupervised anomaly detection
 
-**Use Lovable**
+### **Web Technologies**
+- **Vite** - Fast frontend build tool
+- **TypeScript** - Type-safe development
+- **React** - User interface framework
+- **shadcn-ui** - UI components for enhanced user experience
+- **Tailwind CSS** - Styling framework
+- **FastAPI** - Backend API for AI model integration
+- **PostgreSQL** - Database for storing transactions and fraud reports
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fb140910-0060-4989-b470-4b636cab9803) and start prompting.
+## Features
+- **Real-time Fraud Detection**: AI-driven algorithms analyze transactions in real time.
+- **Behavioral Analysis**: Identifies unusual spending or activity patterns.
+- **Rule-based & AI Hybrid Detection**: Combines rule-based logic with AI predictions.
+- **Transaction Monitoring Dashboard**: Visualizes transaction trends and anomalies.
+- **Automated Alerts & Reporting**: Notifies users of potential fraud cases.
+- **Explainability & Model Interpretability**: Provides insights into why a transaction was flagged.
 
-Changes made via Lovable will be committed automatically to this repo.
+## How to Set Up the Project
 
-**Use your preferred IDE**
+To set up the project locally, follow these steps:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### **Using Your Preferred IDE**
+1. **Clone the Repository**
+   ```sh
+   git clone <YOUR_GIT_URL>
+   ```
+2. **Navigate to the Project Directory**
+   ```sh
+   cd <YOUR_PROJECT_NAME>
+   ```
+3. **Install Dependencies**
+   ```sh
+   npm i
+   ```
+4. **Start the Development Server**
+   ```sh
+   npm run dev
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### **Using GitHub Codespaces**
+1. Open your repository in GitHub.
+2. Click on the "Code" button.
+3. Select the "Codespaces" tab.
+4. Click on "New codespace" to launch the environment.
+5. Make your changes, then commit and push.
 
-Follow these steps:
+## Deployment
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+To deploy the project, you can use services like **Netlify, Vercel, or AWS**.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### **Using Netlify**
+- Connect your GitHub repository to Netlify.
+- Set up environment variables and build settings.
+- Deploy with a single click.
 
-**Edit a file directly in GitHub**
+## Future Enhancements
+- Integration with Blockchain for fraud-proof transactions.
+- AI-powered chatbot for fraud reporting and user support.
+- Advanced deep learning models for improved accuracy.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/fb140910-0060-4989-b470-4b636cab9803) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## License
+This project is open-source under the **MIT License**.
