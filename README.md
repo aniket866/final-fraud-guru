@@ -6,6 +6,24 @@
 
 The **Fraud Detection System** leverages advanced AI models to detect fraudulent activities in financial transactions, e-commerce platforms, and online services. By utilizing machine learning and deep learning techniques, this system enhances security and prevents financial losses.
 
+## SCREENSHOTS:![Screenshot (873)](https://github.com/user-attachments/assets/7e978d12-522b-4c55-abac-64b70baca88e)
+![Screenshot (874)](https://github.com/user-attachments/assets/cd74673a-575a-4cb2-b788-ddf11fc6690e)
+![Screenshot (875)](https://github.com/user-attachments/assets/61720d11-a102-482d-a4e7-c8fc00babdc2)
+![Screenshot (876)](https://github.com/user-attachments/assets/d3218dd6-8aac-47ea-9485-f2a2976f3497)
+![Screenshot (877)](https://github.com/user-attachments/assets/510827e0-e51e-4d93-9e0c-7e626c02c1c6)
+![Screenshot (878)](https://github.com/user-attachments/assets/0f0f65e2-1526-4092-a4ac-5481733b0829)
+![Screenshot (880)](https://github.com/user-attachments/assets/5128c337-6665-4657-9b60-a13c24b4b284)
+![Screenshot (881)](https://github.com/user-attachments/assets/f7a173ca-922d-4bf4-aa8d-6760c88577f1)
+![Screenshot (882)](https://github.com/user-attachments/assets/133fadd2-e961-4daa-b50b-bb1de63a685f)
+![Screenshot (883)](https://github.com/user-attachments/assets/481127a2-218d-4069-ae68-8efefa07d8a8)
+![Screenshot (884)](https://github.com/user-attachments/assets/5e943910-08ce-48e8-bff5-f11eaaa89e84)
+![Screenshot (885)](https://github.com/user-attachments/assets/3771f042-cdc3-42f5-b9dd-96a1e437a54d)
+![Screenshot (886)](https://github.com/user-attachments/assets/760f02e9-c414-4155-bc88-f939a48d3378)
+![Screenshot (887)](https://github.com/user-attachments/assets/39502bbb-4a82-4e2d-a956-7def4da6ee3b)
+![Screenshot (888)](https://github.com/user-attachments/assets/132b5b79-f5e2-451a-b26c-c7eb447f7fa7)
+![Screenshot (889)](https://github.com/user-attachments/assets/452166f1-9c1c-4a3c-8f53-a6616877b151)
+
+
 ## Technologies Used
 
 ### **AI Models**
